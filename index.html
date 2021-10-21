@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- material icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-box">
+        <div class="logo">
+          <img src="logo.png" alt="" />
+        </div>
+        <span>DevJobs</span>
+      </div>
+    </header>
+    <div class="search">
+      <div class="search-box">
+        <div class="input-box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+          <input
+            type="text"
+            id="filter_jobs"
+            name="job"
+            placeholder="Filter by Job title ..."
+          />
+        </div>
+        <div class="button-box">
+          <span>Find Job</span>
+        </div>
+      </div>
+    </div>
+    <div class="jobs">
+      <h1>Showing <span id="countJobs"></span> Jobs</h1>
+      <div class="jobs-box">
+        <!-- Job card here -->
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
